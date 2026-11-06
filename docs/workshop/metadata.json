@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "status": "draft",
+  "module": "RutonyOda",
+  "title": "ODA Bridge — донаты из oda.digital",
+  "appId": 524660,
+  "itemType": "script",
+  "itemTypeId": 1,
+  "tags": [
+    "scripts",
+    "alerts"
+  ],
+  "preview": "preview.png",
+  "description": "description.txt",
+  "license": "MIT",
+  "author": "Aleksandr Klimenkov"
+}

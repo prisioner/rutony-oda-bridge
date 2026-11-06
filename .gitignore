@@ -1,0 +1,29 @@
+# Personal references, secrets and machine-local files.
+/.local/
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Generated build output and isolated development data.
+**/bin/
+**/obj/
+/dist/
+/.runtime/
+
+# Exact runtime names owned by this module; no broad JSON/log exclusion.
+settings.json
+credentials.bin
+deliveries.jsonl
+ledger.version
+ledger.initialized
+
+# Private uploader working metadata, not the sanitized public draft.
+workshopitem.meta
+
+# Interrupted writes and preserved copies of owned runtime files.
+settings.json.tmp
+credentials.bin.tmp

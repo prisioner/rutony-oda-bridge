@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/RutonyOda/RutonyOda.csproj" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <Compile Include="../../tests/RutonyOda.Checks/FakeOda.cs" Link="FakeOda.cs" />
+  </ItemGroup>
+</Project>

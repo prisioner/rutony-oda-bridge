@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/RutonyOda/RutonyOda.csproj" />
+    <Compile Include="../../integration/rutony_oda.cs" Link="rutony_oda.cs" />
+  </ItemGroup>
+</Project>
